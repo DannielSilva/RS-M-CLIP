@@ -83,6 +83,8 @@ A cute cat                                                     0.0%
 
 #### Image Classification (in Spanish)
 ```python
+model = model.eval()
+
 from PIL import Image
 image = preprocess(Image.open('figs/golf_course_004.jpg')).unsqueeze(0)
 
